@@ -1,5 +1,23 @@
 # KiteAI Blockchain Question Generator
-# Join My Channel https://t.me/Offical_Im_kazuha
+
+An automated bot for managing multiple KiteAi accounts with proxy support.
+
+## 📢 Join Our Community
+
+# Telegram Channel: .[Channel](https://t.me/Offical_Im_kazuha)
+# GitHub Repository: [KiteAi2](https://github.com/Kazuha787/KiteAi2.git)
+
+## ✨ Features
+
+- Multi-account support
+- Proxy support (HTTP, SOCKS4, SOCKS5)
+- Auto-retry on failures
+- Detailed logging
+- Account earnings tracking
+- Customizable harvest intervals
+
+- ## Instalation
+- 
 ## English
 
 This Node.js script automates AI-related blockchain question generation and interaction with AI agents. It features randomized request timing, persistent headers, and API integration.
