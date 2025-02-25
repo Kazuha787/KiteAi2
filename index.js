@@ -452,4 +452,5 @@ class KiteAIAutomation {
                 agent,
                 headers: {
                     'Content-Type': 'application/json',
+    },
                    
