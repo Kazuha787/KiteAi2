@@ -14,7 +14,7 @@ export const rateLimitConfig = {
   };
   
   export const groqConfig = {
-    apiKey: "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",
+    apiKey: "ENTER_YOUR_GROQ_API_KEY",
     model: "mixtral-8x7b-32768",
     temperature: 0.7,
   };
