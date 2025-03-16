@@ -35,12 +35,12 @@ Before installing, ensure you have the following:
 
 #### 1️⃣ Clone the repository:  
    ```bash
-   git clone https://github.com/rpchubs/KiteAI-BOT.git
+   git clone https://github.com/Kazuha787/KiteAi2.git
    ```
 
 #### 2️⃣ Navigate to the project folder:  
    ```bash
-   cd KiteAI-BOT
+   cd KiteAi2
    ```
 
 #### 3️⃣ Install dependencies:  
