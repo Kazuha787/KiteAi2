@@ -7,45 +7,117 @@ An automated bot for managing multiple KiteAi accounts with proxy support.
 # Telegram Channel: .[Channel](https://t.me/Offical_Im_kazuha)
 # GitHub Repository: [KiteAi2](https://github.com/Kazuha787/KiteAi2.git)
 
-## ✨ Features
+## ✨ Features  
 
-- Multi-account support
-- Proxy support (HTTP, SOCKS4, SOCKS5)
-- Auto-retry on failures
-- Detailed logging
-- Account earnings tracking
-- Customizable harvest intervals
-
-- ## Instalation
-- 
-## English
-
-This Node.js script automates AI-related blockchain question generation and interaction with AI agents. It features randomized request timing, persistent headers, and API integration.
-
-### Features
-- Automates AI and blockchain-related question generation.
-- Interacts with AI agents for unique responses.
-- Randomized operations for a more natural simulation.
-- Persistent headers for session consistency.
-- Terminal UI styling with `chalk` and `gradient-string`.
-
-### Prerequisites
-- Node.js
-
-### How to Use
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Kazuha787/KiteAi2.git
-   cd KiteAi2
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-4. Run the script:
-   ```sh
-   node index.js
-   ```
-5. The script will generate AI-driven blockchain questions and log responses.
+👉 **Supports multiple wallets** 💰  
+👉 **Automated AI interactions** (Professor, Crypto Buddy, Sherlock) 🧠  
+👉 **Real-time analytics & progress tracking** 📊  
+👉 **Built-in rate limiting & error handling** ⚡  
+👉 **Groq AI integration** for smart question generation 🔍  
 
 ---
+
+## 📌 Prerequisites  
+
+Before installing, ensure you have the following:  
+
+| Requirement  | Description |
+|-------------|------------|
+| 🔹 **Node.js v16+** | [Download Here](https://nodejs.org/) 🖥️ |
+| 🔹 **KiteAI Testnet Account** | [Sign Up](https://testnet.gokite.ai?r=R7H32kqJ) 🔗 |
+| 🔹 **Groq API Key** | [Get it Here](https://console.groq.com) 🔑 |
+
+---
+
+## 🛠️ Installation Guide  
+
+### **🔹 For Linux/macOS Users 🐧🍏**  
+
+#### 1️⃣ Clone the repository:  
+   ```bash
+   git clone https://github.com/rpchubs/KiteAI-BOT.git
+   ```
+
+#### 2️⃣ Navigate to the project folder:  
+   ```bash
+   cd KiteAI-BOT
+   ```
+
+#### 3️⃣ Install dependencies:  
+   ```bash
+   npm install
+   ```
+
+#### 4️⃣ Create required configuration files:  
+   - **Wallets addresses file:**  
+     ```bash
+     nano wallets.txt
+     ```
+   - **Private keys file:**  
+     ```bash
+     nano priv.txt
+     ```
+   - **Proxy file:**  
+     ```bash
+     nano proxies.txt
+     ```
+     **Format:** `http://user:pass@host:port`     
+   - **Create configuration file:**  
+     ```bash
+     nano config.js
+     ```
+     ## ⚙️ Configuration Guide  
+
+### 📂 **Wallet Addresses 💰:**  
+- Open `wallets.txt` and add one wallet address per line:  
+  ```
+  0xwallet1address
+  0xwallet2address
+  ```
+
+### 🔐 **Private Key 🔑:**  
+- Open `priv.txt` and add one private key per line **(Keep it safe!)**  
+  ```
+  privatekey1
+  privatekey2
+  ```
+
+### 🔑 **API Key and Referral Code Setup:**  
+1️⃣ Open `config.js` in a text editor.  
+2️⃣ Locate the following section and update your API key:  
+   ```javascript
+   export const groqConfig = {
+       apiKey: "your-groq-api-key-here",
+       model: "mixtral-8x7b-32768",
+       temperature: 0.7,
+   };
+   ```
+3️⃣ Locate the referral code section and update it:  
+   ```javascript
+   export const refCode = {
+       code: "your-referral-code-here"
+   };
+   ```
+4️⃣ **Save the file.**  
+
+---
+
+## ▶️ Usage Guide 🚀  
+
+### 📝 **To Register (First-time Users Only) 📜**  
+
+🔹 **Ensure that `priv.txt` contains your private key before running `register.js`.**  
+
+#### **Linux/macOS:**  
+```bash
+node register.js
+```
+### 🚀 **To Start the Bot 🤖**  
+
+🔹 **Ensure `wallets.txt` is set up correctly.**  
+🔹 **Wallets must be registered and signed before use.**  
+
+#### **Linux/macOS:**  
+```bash
+node main.js
+```
